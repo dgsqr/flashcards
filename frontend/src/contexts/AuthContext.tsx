@@ -86,7 +86,7 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
           setUser(response.data);
         }
       } catch (error: any) {
-        console.log(error.response);
+        console.log(error.response.data);
         setUser(null);
       } finally {
         setLoading(false);
