@@ -1,0 +1,937 @@
+[
+  {
+    "deck": "Anatomy",
+    "cards": [
+      {
+        "_id": 1,
+        "question": "What organ pumps blood through the body?",
+        "answer": "Heart",
+        "options": ["Lungs", "Heart", "Brain", "Liver"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 2,
+        "question": "Which organ is responsible for breathing?",
+        "answer": "Lungs",
+        "options": ["Heart", "Kidneys", "Lungs", "Stomach"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 3,
+        "question": "What is the largest organ in the human body?",
+        "answer": "Skin",
+        "options": ["Liver", "Skin", "Lungs", "Brain"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 4,
+        "question": "Which bone protects the brain?",
+        "answer": "Skull",
+        "options": ["Rib", "Spine", "Skull", "Femur"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 5,
+        "question": "What organ helps digest food in the body?",
+        "answer": "Stomach",
+        "options": ["Brain", "Stomach", "Lungs", "Heart"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 6,
+        "question": "Which organ filters blood and produces urine?",
+        "answer": "Kidneys",
+        "options": ["Liver", "Kidneys", "Pancreas", "Lungs"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 7,
+        "question": "What is the longest bone in the human body?",
+        "answer": "Femur",
+        "options": ["Tibia", "Humerus", "Femur", "Radius"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 8,
+        "question": "Which part of the body contains the spinal cord?",
+        "answer": "Spine",
+        "options": ["Skull", "Spine", "Ribs", "Pelvis"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 9,
+        "question": "What organ controls the nervous system?",
+        "answer": "Brain",
+        "options": ["Heart", "Brain", "Liver", "Lungs"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 10,
+        "question": "How many chambers does the heart have?",
+        "answer": "4",
+        "options": ["2", "3", "4", "5"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 11,
+        "question": "Which blood vessels carry blood away from the heart?",
+        "answer": "Arteries",
+        "options": ["Veins", "Arteries", "Capillaries", "Nerves"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 12,
+        "question": "Which organ produces bile?",
+        "answer": "Liver",
+        "options": ["Pancreas", "Stomach", "Liver", "Gallbladder"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 13,
+        "question": "What muscle helps the lungs expand during breathing?",
+        "answer": "Diaphragm",
+        "options": ["Biceps", "Diaphragm", "Triceps", "Abdominals"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 14,
+        "question": "Which bone is located in the upper arm?",
+        "answer": "Humerus",
+        "options": ["Femur", "Radius", "Humerus", "Ulna"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 15,
+        "question": "What is the main function of red blood cells?",
+        "answer": "Carry oxygen",
+        "options": [
+          "Fight infection",
+          "Carry oxygen",
+          "Clot blood",
+          "Digest food"
+        ],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 16,
+        "question": "Which organ stores urine before it leaves the body?",
+        "answer": "Bladder",
+        "options": ["Kidneys", "Bladder", "Liver", "Pancreas"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 17,
+        "question": "How many bones are in the adult human body?",
+        "answer": "206",
+        "options": ["201", "206", "210", "215"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 18,
+        "question": "Which organ is responsible for pumping insulin?",
+        "answer": "Pancreas",
+        "options": ["Liver", "Pancreas", "Kidneys", "Heart"],
+        "difficulty": "medium",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 19,
+        "question": "What part of the eye controls the amount of light entering?",
+        "answer": "Iris",
+        "options": ["Lens", "Retina", "Iris", "Cornea"],
+        "difficulty": "hard",
+        "tags": ["anatomy"]
+      },
+      {
+        "_id": 20,
+        "question": "Which bone protects the heart and lungs?",
+        "answer": "Rib cage",
+        "options": ["Skull", "Spine", "Pelvis", "Rib cage"],
+        "difficulty": "easy",
+        "tags": ["anatomy"]
+      }
+    ]
+  },
+  {
+    "deck": "Biology",
+    "cards": [
+      {
+        "_id": 1,
+        "question": "What is the basic unit of life?",
+        "answer": "Cell",
+        "options": ["Atom", "Cell", "Tissue", "Organ"],
+        "difficulty": "easy",
+        "tags": ["biology"]
+      },
+      {
+        "_id": 2,
+        "question": "What process do plants use to make food?",
+        "answer": "Photosynthesis",
+        "options": [
+          "Respiration",
+          "Digestion",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "difficulty": "easy",
+        "tags": ["biology"]
+      },
+      {
+        "_id": 3,
+        "question": "Which molecule carries genetic information?",
+        "answer": "DNA",
+        "options": ["RNA", "Protein", "DNA", "Glucose"],
+        "difficulty": "easy",
+        "tags": ["genetics"]
+      },
+      {
+        "_id": 4,
+        "question": "What organelle is known as the powerhouse of the cell?",
+        "answer": "Mitochondria",
+        "options": ["Nucleus", "Ribosome", "Mitochondria", "Chloroplast"],
+        "difficulty": "easy",
+        "tags": ["cell-biology"]
+      },
+      {
+        "_id": 5,
+        "question": "What gas do plants absorb from the atmosphere?",
+        "answer": "Carbon dioxide",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        "difficulty": "easy",
+        "tags": ["plants"]
+      },
+      {
+        "_id": 6,
+        "question": "What is the process of cell division called?",
+        "answer": "Mitosis",
+        "options": ["Fusion", "Mitosis", "Meiosis", "Budding"],
+        "difficulty": "medium",
+        "tags": ["cell-biology"]
+      },
+      {
+        "_id": 7,
+        "question": "Which blood cells help fight infections?",
+        "answer": "White blood cells",
+        "options": [
+          "Red blood cells",
+          "Platelets",
+          "White blood cells",
+          "Plasma"
+        ],
+        "difficulty": "easy",
+        "tags": ["human-biology"]
+      },
+      {
+        "_id": 8,
+        "question": "What is the largest organ in the human body?",
+        "answer": "Skin",
+        "options": ["Liver", "Brain", "Skin", "Lungs"],
+        "difficulty": "easy",
+        "tags": ["human-biology"]
+      },
+      {
+        "_id": 9,
+        "question": "What do herbivores eat?",
+        "answer": "Plants",
+        "options": ["Meat", "Plants", "Both plants and meat", "Insects"],
+        "difficulty": "easy",
+        "tags": ["ecology"]
+      },
+      {
+        "_id": 10,
+        "question": "What part of the plant absorbs water?",
+        "answer": "Roots",
+        "options": ["Leaves", "Stem", "Roots", "Flowers"],
+        "difficulty": "easy",
+        "tags": ["plants"]
+      },
+      {
+        "_id": 11,
+        "question": "What is the green pigment in plants called?",
+        "answer": "Chlorophyll",
+        "options": ["Glucose", "Chlorophyll", "Hemoglobin", "Melanin"],
+        "difficulty": "easy",
+        "tags": ["plants"]
+      },
+      {
+        "_id": 12,
+        "question": "Which kingdom do mushrooms belong to?",
+        "answer": "Fungi",
+        "options": ["Plants", "Animals", "Protists", "Fungi"],
+        "difficulty": "medium",
+        "tags": ["classification"]
+      },
+      {
+        "_id": 13,
+        "question": "What is the liquid part of blood called?",
+        "answer": "Plasma",
+        "options": ["Plasma", "Water", "Serum", "Lymph"],
+        "difficulty": "medium",
+        "tags": ["human-biology"]
+      },
+      {
+        "_id": 14,
+        "question": "What type of organism makes its own food?",
+        "answer": "Autotroph",
+        "options": ["Herbivore", "Carnivore", "Autotroph", "Decomposer"],
+        "difficulty": "medium",
+        "tags": ["ecology"]
+      },
+      {
+        "_id": 15,
+        "question": "What is the study of living organisms called?",
+        "answer": "Biology",
+        "options": ["Chemistry", "Physics", "Biology", "Geology"],
+        "difficulty": "easy",
+        "tags": ["biology"]
+      },
+      {
+        "_id": 16,
+        "question": "Which organ pumps oxygen-rich blood to the body?",
+        "answer": "Heart",
+        "options": ["Lungs", "Heart", "Kidney", "Liver"],
+        "difficulty": "easy",
+        "tags": ["human-biology"]
+      },
+      {
+        "_id": 17,
+        "question": "What process converts glucose into energy in cells?",
+        "answer": "Cellular respiration",
+        "options": [
+          "Photosynthesis",
+          "Digestion",
+          "Cellular respiration",
+          "Evaporation"
+        ],
+        "difficulty": "medium",
+        "tags": ["cell-biology"]
+      },
+      {
+        "_id": 18,
+        "question": "What type of animals eat both plants and meat?",
+        "answer": "Omnivores",
+        "options": ["Carnivores", "Herbivores", "Omnivores", "Decomposers"],
+        "difficulty": "easy",
+        "tags": ["ecology"]
+      },
+      {
+        "_id": 19,
+        "question": "Which part of the cell contains DNA?",
+        "answer": "Nucleus",
+        "options": ["Membrane", "Nucleus", "Ribosome", "Cytoplasm"],
+        "difficulty": "easy",
+        "tags": ["genetics"]
+      },
+      {
+        "_id": 20,
+        "question": "What is the process by which organisms adapt over time?",
+        "answer": "Evolution",
+        "options": ["Mutation", "Evolution", "Mitosis", "Growth"],
+        "difficulty": "medium",
+        "tags": ["evolution"]
+      }
+    ]
+  },
+  {
+    "deck": "History",
+    "cards": [
+      {
+        "_id": 1,
+        "question": "Who was the first president of the United States?",
+        "answer": "George Washington",
+        "options": [
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "George Washington",
+          "John Adams"
+        ],
+        "difficulty": "easy",
+        "tags": ["american-history"]
+      },
+      {
+        "_id": 2,
+        "question": "In what year did World War II end?",
+        "answer": "1945",
+        "options": ["1939", "1942", "1945", "1950"],
+        "difficulty": "easy",
+        "tags": ["world-war"]
+      },
+      {
+        "_id": 3,
+        "question": "Which civilization built the pyramids of Giza?",
+        "answer": "Ancient Egyptians",
+        "options": ["Romans", "Greeks", "Ancient Egyptians", "Mayans"],
+        "difficulty": "easy",
+        "tags": ["ancient-history"]
+      },
+      {
+        "_id": 4,
+        "question": "Who discovered America in 1492?",
+        "answer": "Christopher Columbus",
+        "options": [
+          "Vasco da Gama",
+          "Christopher Columbus",
+          "Ferdinand Magellan",
+          "Marco Polo"
+        ],
+        "difficulty": "easy",
+        "tags": ["exploration"]
+      },
+      {
+        "_id": 5,
+        "question": "What wall divided East and West Berlin?",
+        "answer": "Berlin Wall",
+        "options": ["Great Wall", "Iron Curtain", "Berlin Wall", "Roman Wall"],
+        "difficulty": "easy",
+        "tags": ["cold-war"]
+      },
+      {
+        "_id": 6,
+        "question": "Which empire was ruled by Julius Caesar?",
+        "answer": "Roman Empire",
+        "options": [
+          "Ottoman Empire",
+          "Roman Empire",
+          "Greek Empire",
+          "Persian Empire"
+        ],
+        "difficulty": "medium",
+        "tags": ["ancient-history"]
+      },
+      {
+        "_id": 7,
+        "question": "What ship sank in 1912 after hitting an iceberg?",
+        "answer": "Titanic",
+        "options": ["Britannic", "Lusitania", "Titanic", "Bismarck"],
+        "difficulty": "easy",
+        "tags": ["modern-history"]
+      },
+      {
+        "_id": 8,
+        "question": "Who was known as the Maid of Orleans?",
+        "answer": "Joan of Arc",
+        "options": [
+          "Marie Curie",
+          "Joan of Arc",
+          "Catherine the Great",
+          "Cleopatra"
+        ],
+        "difficulty": "medium",
+        "tags": ["medieval-history"]
+      },
+      {
+        "_id": 9,
+        "question": "Which war was fought between the North and South regions of the United States?",
+        "answer": "Civil War",
+        "options": [
+          "Revolutionary War",
+          "Civil War",
+          "World War I",
+          "Cold War"
+        ],
+        "difficulty": "easy",
+        "tags": ["american-history"]
+      },
+      {
+        "_id": 10,
+        "question": "Who was the leader of Nazi Germany during World War II?",
+        "answer": "Adolf Hitler",
+        "options": [
+          "Joseph Stalin",
+          "Benito Mussolini",
+          "Adolf Hitler",
+          "Winston Churchill"
+        ],
+        "difficulty": "easy",
+        "tags": ["world-war"]
+      },
+      {
+        "_id": 11,
+        "question": "What event started World War I?",
+        "answer": "Assassination of Archduke Franz Ferdinand",
+        "options": [
+          "Bombing of Pearl Harbor",
+          "French Revolution",
+          "Assassination of Archduke Franz Ferdinand",
+          "Fall of Rome"
+        ],
+        "difficulty": "medium",
+        "tags": ["world-war"]
+      },
+      {
+        "_id": 12,
+        "question": "Which famous queen ruled Egypt?",
+        "answer": "Cleopatra",
+        "options": ["Victoria", "Cleopatra", "Elizabeth I", "Nefertiti"],
+        "difficulty": "easy",
+        "tags": ["ancient-history"]
+      },
+      {
+        "_id": 13,
+        "question": "What year did the French Revolution begin?",
+        "answer": "1789",
+        "options": ["1776", "1789", "1812", "1848"],
+        "difficulty": "medium",
+        "tags": ["european-history"]
+      },
+      {
+        "_id": 14,
+        "question": "Who was the British prime minister during most of World War II?",
+        "answer": "Winston Churchill",
+        "options": [
+          "Neville Chamberlain",
+          "Winston Churchill",
+          "Margaret Thatcher",
+          "Tony Blair"
+        ],
+        "difficulty": "easy",
+        "tags": ["world-war"]
+      },
+      {
+        "_id": 15,
+        "question": "Which civilization is known for inventing democracy?",
+        "answer": "Ancient Greece",
+        "options": ["Rome", "Ancient Greece", "Egypt", "China"],
+        "difficulty": "medium",
+        "tags": ["ancient-history"]
+      },
+      {
+        "_id": 16,
+        "question": "Who was assassinated in 1865 after the American Civil War?",
+        "answer": "Abraham Lincoln",
+        "options": [
+          "George Washington",
+          "Abraham Lincoln",
+          "John F. Kennedy",
+          "Theodore Roosevelt"
+        ],
+        "difficulty": "easy",
+        "tags": ["american-history"]
+      },
+      {
+        "_id": 17,
+        "question": "What was the name of the trade route connecting Europe and Asia?",
+        "answer": "Silk Road",
+        "options": ["Spice Route", "Silk Road", "Golden Path", "Royal Road"],
+        "difficulty": "medium",
+        "tags": ["trade-history"]
+      },
+      {
+        "_id": 18,
+        "question": "Which country gifted the Statue of Liberty to the United States?",
+        "answer": "France",
+        "options": ["England", "France", "Germany", "Spain"],
+        "difficulty": "easy",
+        "tags": ["modern-history"]
+      },
+      {
+        "_id": 19,
+        "question": "What year did humans first land on the Moon?",
+        "answer": "1969",
+        "options": ["1959", "1965", "1969", "1972"],
+        "difficulty": "easy",
+        "tags": ["space-history"]
+      },
+      {
+        "_id": 20,
+        "question": "Which ancient empire was famous for its gladiators?",
+        "answer": "Roman Empire",
+        "options": [
+          "Greek Empire",
+          "Roman Empire",
+          "Persian Empire",
+          "Byzantine Empire"
+        ],
+        "difficulty": "easy",
+        "tags": ["ancient-history"]
+      }
+    ]
+  },
+  {
+    "deck": "Chemistry",
+    "cards": [
+      {
+        "_id": 1,
+        "question": "What is the chemical symbol for water?",
+        "answer": "H2O",
+        "options": ["O2", "H2O", "CO2", "NaCl"],
+        "difficulty": "easy",
+        "tags": ["chemistry"]
+      },
+      {
+        "_id": 2,
+        "question": "What gas do humans breathe in to survive?",
+        "answer": "Oxygen",
+        "options": ["Nitrogen", "Hydrogen", "Oxygen", "Carbon dioxide"],
+        "difficulty": "easy",
+        "tags": ["elements"]
+      },
+      {
+        "_id": 3,
+        "question": "What is the chemical symbol for gold?",
+        "answer": "Au",
+        "options": ["Ag", "Au", "Gd", "Go"],
+        "difficulty": "easy",
+        "tags": ["elements"]
+      },
+      {
+        "_id": 4,
+        "question": "What is the pH of pure water?",
+        "answer": "7",
+        "options": ["0", "7", "14", "10"],
+        "difficulty": "medium",
+        "tags": ["acids-bases"]
+      },
+      {
+        "_id": 5,
+        "question": "What element has the atomic number 1?",
+        "answer": "Hydrogen",
+        "options": ["Helium", "Hydrogen", "Oxygen", "Carbon"],
+        "difficulty": "easy",
+        "tags": ["periodic-table"]
+      },
+      {
+        "_id": 6,
+        "question": "What is the chemical formula for table salt?",
+        "answer": "NaCl",
+        "options": ["KCl", "NaCl", "CaCO3", "HCl"],
+        "difficulty": "easy",
+        "tags": ["compounds"]
+      },
+      {
+        "_id": 7,
+        "question": "What type of bond shares electrons between atoms?",
+        "answer": "Covalent bond",
+        "options": [
+          "Ionic bond",
+          "Covalent bond",
+          "Metallic bond",
+          "Hydrogen bond"
+        ],
+        "difficulty": "medium",
+        "tags": ["bonding"]
+      },
+      {
+        "_id": 8,
+        "question": "What is the symbol for sodium?",
+        "answer": "Na",
+        "options": ["So", "Sd", "Na", "S"],
+        "difficulty": "easy",
+        "tags": ["elements"]
+      },
+      {
+        "_id": 9,
+        "question": "Which state of matter has a definite shape and volume?",
+        "answer": "Solid",
+        "options": ["Liquid", "Gas", "Solid", "Plasma"],
+        "difficulty": "easy",
+        "tags": ["matter"]
+      },
+      {
+        "_id": 10,
+        "question": "What gas do plants use during photosynthesis?",
+        "answer": "Carbon dioxide",
+        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
+        "difficulty": "easy",
+        "tags": ["gases"]
+      },
+      {
+        "_id": 11,
+        "question": "What is the center of an atom called?",
+        "answer": "Nucleus",
+        "options": ["Electron", "Nucleus", "Proton", "Shell"],
+        "difficulty": "easy",
+        "tags": ["atomic-structure"]
+      },
+      {
+        "_id": 12,
+        "question": "What particle has a negative charge?",
+        "answer": "Electron",
+        "options": ["Proton", "Neutron", "Electron", "Nucleus"],
+        "difficulty": "easy",
+        "tags": ["atomic-structure"]
+      },
+      {
+        "_id": 13,
+        "question": "What is the lightest element on the periodic table?",
+        "answer": "Hydrogen",
+        "options": ["Helium", "Hydrogen", "Lithium", "Oxygen"],
+        "difficulty": "easy",
+        "tags": ["periodic-table"]
+      },
+      {
+        "_id": 14,
+        "question": "What type of substance has a pH lower than 7?",
+        "answer": "Acid",
+        "options": ["Base", "Acid", "Salt", "Neutral"],
+        "difficulty": "easy",
+        "tags": ["acids-bases"]
+      },
+      {
+        "_id": 15,
+        "question": "What is the chemical symbol for iron?",
+        "answer": "Fe",
+        "options": ["Ir", "Fe", "In", "I"],
+        "difficulty": "medium",
+        "tags": ["elements"]
+      },
+      {
+        "_id": 16,
+        "question": "What process changes a liquid into a gas?",
+        "answer": "Evaporation",
+        "options": ["Condensation", "Freezing", "Evaporation", "Melting"],
+        "difficulty": "easy",
+        "tags": ["states-of-matter"]
+      },
+      {
+        "_id": 17,
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "answer": "Nitrogen",
+        "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+        "difficulty": "medium",
+        "tags": ["gases"]
+      },
+      {
+        "_id": 18,
+        "question": "What kind of reaction absorbs heat?",
+        "answer": "Endothermic",
+        "options": ["Exothermic", "Endothermic", "Neutral", "Catalytic"],
+        "difficulty": "medium",
+        "tags": ["reactions"]
+      },
+      {
+        "_id": 19,
+        "question": "What is the chemical symbol for carbon dioxide?",
+        "answer": "CO2",
+        "options": ["CO", "CO2", "C2O", "O2C"],
+        "difficulty": "easy",
+        "tags": ["compounds"]
+      },
+      {
+        "_id": 20,
+        "question": "What is the smallest unit of an element?",
+        "answer": "Atom",
+        "options": ["Molecule", "Cell", "Atom", "Compound"],
+        "difficulty": "easy",
+        "tags": ["chemistry"]
+      }
+    ]
+  },
+  {
+    "deck": "Geography",
+    "cards": [
+      {
+        "_id": 1,
+        "question": "What is the largest continent on Earth?",
+        "answer": "Asia",
+        "options": ["Africa", "Europe", "Asia", "North America"],
+        "difficulty": "easy",
+        "tags": ["continents"]
+      },
+      {
+        "_id": 2,
+        "question": "What is the longest river in the world?",
+        "answer": "Nile River",
+        "options": [
+          "Amazon River",
+          "Nile River",
+          "Yangtze River",
+          "Mississippi River"
+        ],
+        "difficulty": "easy",
+        "tags": ["rivers"]
+      },
+      {
+        "_id": 3,
+        "question": "Which is the largest ocean on Earth?",
+        "answer": "Pacific Ocean",
+        "options": [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Pacific Ocean",
+          "Arctic Ocean"
+        ],
+        "difficulty": "easy",
+        "tags": ["oceans"]
+      },
+      {
+        "_id": 4,
+        "question": "What is the capital of France?",
+        "answer": "Paris",
+        "options": ["Rome", "Madrid", "Paris", "Berlin"],
+        "difficulty": "easy",
+        "tags": ["capitals"]
+      },
+      {
+        "_id": 5,
+        "question": "Which desert is the largest hot desert in the world?",
+        "answer": "Sahara Desert",
+        "options": [
+          "Gobi Desert",
+          "Kalahari Desert",
+          "Sahara Desert",
+          "Arabian Desert"
+        ],
+        "difficulty": "easy",
+        "tags": ["deserts"]
+      },
+      {
+        "_id": 6,
+        "question": "What country has the largest population in the world?",
+        "answer": "India",
+        "options": ["China", "United States", "India", "Brazil"],
+        "difficulty": "medium",
+        "tags": ["countries"]
+      },
+      {
+        "_id": 7,
+        "question": "What mountain is the tallest in the world?",
+        "answer": "Mount Everest",
+        "options": ["K2", "Mount Everest", "Kilimanjaro", "Denali"],
+        "difficulty": "easy",
+        "tags": ["mountains"]
+      },
+      {
+        "_id": 8,
+        "question": "Which continent is Brazil located in?",
+        "answer": "South America",
+        "options": ["North America", "Europe", "South America", "Africa"],
+        "difficulty": "easy",
+        "tags": ["continents"]
+      },
+      {
+        "_id": 9,
+        "question": "What is the capital of Japan?",
+        "answer": "Tokyo",
+        "options": ["Seoul", "Beijing", "Tokyo", "Kyoto"],
+        "difficulty": "easy",
+        "tags": ["capitals"]
+      },
+      {
+        "_id": 10,
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "answer": "Japan",
+        "options": ["China", "Thailand", "Japan", "South Korea"],
+        "difficulty": "easy",
+        "tags": ["countries"]
+      },
+      {
+        "_id": 11,
+        "question": "What line divides Earth into the Northern and Southern Hemispheres?",
+        "answer": "Equator",
+        "options": [
+          "Prime Meridian",
+          "Equator",
+          "Tropic of Cancer",
+          "Arctic Circle"
+        ],
+        "difficulty": "easy",
+        "tags": ["earth-science"]
+      },
+      {
+        "_id": 12,
+        "question": "What is the smallest continent?",
+        "answer": "Australia",
+        "options": ["Europe", "Antarctica", "Australia", "South America"],
+        "difficulty": "medium",
+        "tags": ["continents"]
+      },
+      {
+        "_id": 13,
+        "question": "Which ocean lies between Africa and Australia?",
+        "answer": "Indian Ocean",
+        "options": [
+          "Pacific Ocean",
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Southern Ocean"
+        ],
+        "difficulty": "medium",
+        "tags": ["oceans"]
+      },
+      {
+        "_id": 14,
+        "question": "What is the capital of Canada?",
+        "answer": "Ottawa",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "difficulty": "medium",
+        "tags": ["capitals"]
+      },
+      {
+        "_id": 15,
+        "question": "Which country has the city of Cairo as its capital?",
+        "answer": "Egypt",
+        "options": ["Morocco", "Egypt", "Sudan", "Libya"],
+        "difficulty": "easy",
+        "tags": ["countries"]
+      },
+      {
+        "_id": 16,
+        "question": "What is the largest rainforest in the world?",
+        "answer": "Amazon Rainforest",
+        "options": [
+          "Congo Rainforest",
+          "Daintree Rainforest",
+          "Amazon Rainforest",
+          "Black Forest"
+        ],
+        "difficulty": "easy",
+        "tags": ["forests"]
+      },
+      {
+        "_id": 17,
+        "question": "Which continent is the Sahara Desert located on?",
+        "answer": "Africa",
+        "options": ["Asia", "Africa", "Australia", "South America"],
+        "difficulty": "easy",
+        "tags": ["deserts"]
+      },
+      {
+        "_id": 18,
+        "question": "What is the capital of Australia?",
+        "answer": "Canberra",
+        "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "difficulty": "medium",
+        "tags": ["capitals"]
+      },
+      {
+        "_id": 19,
+        "question": "Which country is both in Europe and Asia?",
+        "answer": "Turkey",
+        "options": ["Spain", "Turkey", "Germany", "India"],
+        "difficulty": "medium",
+        "tags": ["countries"]
+      },
+      {
+        "_id": 20,
+        "question": "What is the name of the imaginary line at 0° longitude?",
+        "answer": "Prime Meridian",
+        "options": [
+          "Equator",
+          "Prime Meridian",
+          "Tropic of Capricorn",
+          "International Date Line"
+        ],
+        "difficulty": "medium",
+        "tags": ["earth-science"]
+      }
+    ]
+  }
+]

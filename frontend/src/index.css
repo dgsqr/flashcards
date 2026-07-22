@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f0ebe1;
+  --color-dark: #1a1209;
+  --color-brown: #6b5e4e;
+
+  --color-pink: #ff4da6;
+  --color-pink-light: #ff79bc;
+  --color-pink-bg: #ffd6eb;
+
+  --color-yellow: #f5c842;
+
+  --color-teal: #2ecfa8;
+  --color-teal-bg: #c6f5ea;
+
+  --color-blue: #7b7ef5;
+  --color-blue-bg: #d9daff;
+
+  --color-red: #e8556a;
+  --color-red-bg: #ffdde2;
+
+  --color-border: #d4c9ba;
+  --color-white: #ffffff;
+
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+:root {
+  --cream: #f0ebe1;
+  --brown: #6b5e4e;
+  --dark: #1a1209;
+  --pink: #ff4da6;
+  --pink-light: #ff79bc;
+  --pink-bg: #ffd6eb;
+  --yellow: #f5c842;
+  --teal: #2ecfa8;
+  --teal-bg: #c6f5ea;
+  --blue: #7b7ef5;
+  --blue-bg: #d9daff;
+  --red: #e8556a;
+  --red-bg: #ffdde2;
+  --border: #d4c9ba;
+  --white: #ffffff;
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--cream);
+}
+
+.demo-card-opt {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  text-align: left;
+}
+.demo-card-opt div p:first-child {
+  color: var(--dark);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.demo-card-opt div p:last-child {
+  color: var(--brown);
+  font-size: 0.8rem;
+}
+
+.dropdown-animation {
+  opacity: 0;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+  animation-name: entry1;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+.entry-animation1 {
+  opacity: 0;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+  animation-name: dropdown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+}
+.entry-animation2 {
+  opacity: 0;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+  animation-name: entry2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+}
+.entry-animation3 {
+  opacity: 0;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+  animation-name: entry3;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes dropdown {
+  to {
+    opacity: 1;
+    transform: translateY(3px);
+  }
+}
+@keyframes entry1 {
+  to {
+    opacity: 1;
+    transform: translateY(3px);
+  }
+}
+@keyframes entry2 {
+  to {
+    opacity: 1;
+    transform: translateY(3px);
+  }
+}
+@keyframes entry3 {
+  to {
+    opacity: 1;
+    transform: translateY(3px);
+  }
+}
