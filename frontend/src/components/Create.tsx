@@ -100,7 +100,7 @@ export default function Create() {
 
   useEffect(() => {
     if (!loading && !user) navigate("/login");
-  }, []);
+  }, [loading, user, navigate]);
 
   useEffect(() => {
     if (
