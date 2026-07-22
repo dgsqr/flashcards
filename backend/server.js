@@ -38,6 +38,10 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+app.get("/ping", (req, res) => {
+  res.send("Server running...");
+});
+
 /* creates a new user */
 app.use("/register", register);
 /* login route */
