@@ -10,8 +10,24 @@ import Demo from "./components/Demo";
 import Profile from "./components/Profile";
 import Create from "./components/Create";
 import DeckSettings from "./components/DeckSettings";
+import { useLayoutEffect } from "react";
+import axios from "axios";
 
 function App() {
+  useLayoutEffect(() => {
+    async function wakeupServer() {
+      try {
+        const response = await axios.get(
+          `${import.meta.env.VITE_API_URL}/ping`,
+        );
+        console.log(response.data);
+      } catch (error: any) {
+        console.log(error);
+      }
+    }
+    wakeupServer();
+  }, []);
+
   return (
     <>
       <BrowserRouter>
