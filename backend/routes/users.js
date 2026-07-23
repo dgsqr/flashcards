@@ -63,7 +63,7 @@ register.post(
         .cookie(
           "user",
           { username: user.username, user_id: user._id },
-          { httpOnly: true, sameSite: "lax", secure: false },
+          { httpOnly: true, sameSite: "None", secure: true },
         )
         .json({
           username: user.username,
@@ -127,7 +127,7 @@ login.post(
         .cookie(
           "user",
           { username: user.username, user_id: user._id },
-          { httpOnly: true, sameSite: "lax", secure: false },
+          { httpOnly: true, sameSite: "None", secure: true },
         )
         .json({
           username: user.username,
@@ -233,6 +233,6 @@ recover.put(
 logout.post("/", async (req, res) => {
   res
     .status(200)
-    .clearCookie("user", { httpOnly: true, sameSite: "lax", secure: false })
+    .clearCookie("user", { httpOnly: true, sameSite: "None", secure: true })
     .send("Logged out successfully.");
 });
