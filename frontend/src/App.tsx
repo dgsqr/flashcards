@@ -10,10 +10,13 @@ import Demo from "./components/Demo";
 import Profile from "./components/Profile";
 import Create from "./components/Create";
 import DeckSettings from "./components/DeckSettings";
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useState } from "react";
+import LoadingApp from "./components/LoadingApp";
 import axios from "axios";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
   useLayoutEffect(() => {
     async function wakeupServer() {
       try {
@@ -21,6 +24,7 @@ function App() {
           `${import.meta.env.VITE_API_URL}/ping`,
         );
         console.log(response.data);
+        setLoading(false);
       } catch (error: any) {
         console.log(error);
       }
@@ -30,6 +34,7 @@ function App() {
 
   return (
     <>
+      {loading && <LoadingApp />}
       <BrowserRouter>
         <Header />
         <Routes>
